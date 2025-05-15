@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8d867e1bdf4c4953acd71fee68610132" Name="Diagram1" ZoomLevel="85">
+        <EntityTypeShape EntityType="HorseRacingBDModel.BetHistory" Width="1.5" PointX="2.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseRacingBDModel.Bets" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseRacingBDModel.Horses" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseRacingBDModel.Members" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseRacingBDModel.Owners" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseRacingBDModel.Participants" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseRacingBDModel.Races" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseRacingBDModel.Results" Width="1.5" PointX="8.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseRacingBDModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseRacingBDModel.Trainers" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="HorseRacingBDModel.Users" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <AssociationConnector Association="HorseRacingBDModel.FK__Bets__Horse_id__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseRacingBDModel.FK__Bets__Member_id__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseRacingBDModel.FK__Bets__Race_id__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseRacingBDModel.FK__Horses__Owner_id__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseRacingBDModel.FK__Horses__Trainer___3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseRacingBDModel.FK__Participa__Horse__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseRacingBDModel.FK__Results__Horse_i__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseRacingBDModel.FK_Members_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseRacingBDModel.FK__Participa__Race___44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="HorseRacingBDModel.FK__Results__Race_id__412EB0B6" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
